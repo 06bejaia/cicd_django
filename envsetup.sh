@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [-d "env"]
+if [ -d "env"]
 then
     echo " folder exsists"
 else
@@ -12,7 +12,7 @@ echo $pwd
 pip install -r requirements.txt
 
 
-if [-d "logs"]
+if [ -d "logs"]
 then 
     echo "folder exists"
 else
