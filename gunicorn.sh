@@ -1,16 +1,16 @@
 #!/bin/bash
 
-source venv/bin/activate
+source env/bin/activate
 
-cd /var/lib/jenkins/workspace/Django_cicd/app
-pip3 install django
+cd /var/lib/jenkins/workspace/nacer/app
+
 python3 manage.py makemigrations
 python3 manage.py migrate
 python3 manage.py collectstatic -- no-input
 
 echo "Migrations done"
 
-cd /var/lib/jenkins/workspace/Django_cicd
+cd /var/lib/jenkins/workspace/nacer
 
 
 sudo cp -rf gunicorn.socket /etc/systemd/system/
