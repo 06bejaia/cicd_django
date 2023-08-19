@@ -1,15 +1,16 @@
 #!/bin/bash
 
-if [ -d "denv" ]
+if [ -d "venv" ]
 then
     echo " folder exsists"
 else
-    python3 -m venv denv
+    python3 -m venv venv
 fi
 
 echo $pwd
 
 pip install -r requirements.txt
+pip install django
 
 
 if [ -d "logs" ]
