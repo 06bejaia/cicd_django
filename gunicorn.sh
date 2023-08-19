@@ -1,8 +1,8 @@
 #!/bin/bash
 
-source denv/bin/activate
+source venv/bin/activate
 
-cd /var/lib/jenkins/workspace/Django_cicd/app/app
+cd /var/lib/jenkins/workspace/Django_cicd/app
 
 python3 manage.py makemigrations
 python3 manage.py migrate
