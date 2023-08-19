@@ -9,7 +9,7 @@ fi
 
 echo $pwd
 
-pip3 install -r requirements.txt
+sudo pip3 install -r  requirements.txt
 
 
 pip3 freeze
