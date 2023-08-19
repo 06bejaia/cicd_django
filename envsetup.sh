@@ -1,10 +1,10 @@
 #!/bin/bash
 
-if [ -d "env" ]
+if [ -d "denv" ]
 then
     echo " folder exsists"
 else
-    python3 -m venv env
+    python3 -m venv denv
 fi
 
 echo $pwd
