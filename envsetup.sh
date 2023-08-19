@@ -9,8 +9,8 @@ fi
 
 echo $pwd
 
-pip install -r requirements.txt
-pip install django
+pip3 install -r requirements.txt
+pip3 install django
 
 
 if [ -d "logs" ]
