@@ -1,5 +1,6 @@
 #!/bin/bash
 
+pip3 install django
 source env/bin/activate
 
 cd /var/lib/jenkins/workspace/nacer/app
