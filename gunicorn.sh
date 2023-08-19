@@ -2,7 +2,7 @@
 
 source denv/bin/activate
 
-cd /var/lib/jenkins/workspace/Django_cicd/app
+cd /var/lib/jenkins/workspace/Django_cicd/app/app
 
 python3 manage.py makemigrations
 python3 manage.py migrate
